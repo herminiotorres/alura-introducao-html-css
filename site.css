@@ -18,6 +18,12 @@ main h1 {
   font-size: 60px;
 }
 
+article {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 20px;
+}
+
 p {
   margin: 20px 0;
   text-align: justify;
@@ -31,9 +37,19 @@ blockquote {
   margin: 20px 40px;
 }
 
-aside {
+.leia-mais {
+  padding: 8px;
+  margin: 16px;
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  background-color: #E6E7E8;
+}
+
+.navegacao-site {
   background-color: #3C1D3D;
   color: #F2FFFC;
+  padding: 20px;
   text-align: center;
 }
 
@@ -82,6 +98,6 @@ h2 {
   font-size: 30px;
 }
 
-aside li {
+.icones-redes-sociais li {
   display: inline-block;
 }
